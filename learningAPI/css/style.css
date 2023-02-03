@@ -1,0 +1,60 @@
+body{
+    background: #2f4f4f;
+    font: normal 15pt Arial;
+}
+
+header{
+    color: #FAAF1A;
+    text-align: center;
+}
+.titleBox{
+    margin: auto;
+    width: 420px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.325);
+}
+
+.quoteContainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 50px;
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.325);
+    background: white;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+#quote {
+    text-align: center;
+    font-size: 30px;
+    color: #971C1C;
+    text-shadow: 1px 1px 2px;
+}
+
+#author {
+    margin-top: 10px;
+    font-size: 25px;
+    color: #B38B3A;
+    text-shadow: 1px 1px 9px;
+}
+
+
+
+section{
+    
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
